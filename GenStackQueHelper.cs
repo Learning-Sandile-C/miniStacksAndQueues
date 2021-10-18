@@ -42,9 +42,13 @@ namespace linked_list
             size++;
         }
 
-        public void Pop()
+        public GenNode<T> Pop()
         {
+            GenNode<T> popNode = headNode;
 
+            headNode = headNode.NextNode;
+
+            return popNode;
         }
 
 
