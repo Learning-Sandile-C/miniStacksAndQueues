@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Sandi\\source\\repos\\miniStacksAndQueuse\\miniStacksAndQueuse.csproj",
-      "projectName": "miniStacksAndQueuse",
-      "projectPath": "C:\\Users\\Sandi\\source\\repos\\miniStacksAndQueuse\\miniStacksAndQueuse.csproj",
+      "projectUniqueName": "C:\\Cave\\learning\\miniStacksAndQueues\\miniStacksAndQueues.csproj",
+      "projectName": "miniStacksAndQueues",
+      "projectPath": "C:\\Cave\\learning\\miniStacksAndQueues\\miniStacksAndQueues.csproj",
       "packagesPath": "C:\\Users\\Sandi\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Sandi\\source\\repos\\miniStacksAndQueuse\\obj\\",
+      "outputPath": "C:\\Cave\\learning\\miniStacksAndQueues\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Sandi\\AppData\\Roaming\\NuGet\\NuGet.Config",

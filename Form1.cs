@@ -1,4 +1,5 @@
-﻿using System;
+﻿using linked_list;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -12,10 +13,16 @@ namespace miniStacksAndQueuse
 {
     public partial class Form1 : Form
     {
+
+    
+
+
         public Form1()
         {
             InitializeComponent();
         }
+
+
 
     }
 }

@@ -1,13 +1,12 @@
-﻿using linked_list;
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace miniStacksAndQueuse
+namespace linked_list
 {
-    class VaccinationLinkedListHelper<T>
+    class GenStackQueHelper<T>
     {
         private GenNode<T> headNode;
         private GenNode<T> tailNode;
@@ -57,7 +56,7 @@ namespace miniStacksAndQueuse
             }
             size++;
         }
-
+        
         public void Prepend(GenNode<T> newHead)//Prepend
         {
             if (size == 0)
@@ -76,7 +75,8 @@ namespace miniStacksAndQueuse
         {
             headNode = newTailHead;
             tailNode = newTailHead;
-
+       
         }
+
     }
 }
