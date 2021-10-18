@@ -28,22 +28,7 @@ namespace linked_list
             return tempNodes;
         }
 
-        public List<GenNode<T>> GetNodesReverse()
-        {
-            List<GenNode<T>> tempNodes = new List<GenNode<T>>();
-
-            GenNode<T> runner = tailNode;
-
-            for (int i = 0; i < size; i++)
-            {
-                tempNodes.Add(runner);
-
-                runner = runner.PreviousNode;
-            }
-
-            return tempNodes;
-        }
-        public void Append(GenNode<T> newTail)//Append
+        public void Push(GenNode<T> newTail)//Append
         {
             if (size == 0)
             {
@@ -56,20 +41,12 @@ namespace linked_list
             }
             size++;
         }
-        
-        public void Prepend(GenNode<T> newHead)//Prepend
+
+        public void Pop()
         {
-            if (size == 0)
-            {
-                SetTailHead(newHead);
-            }
-            else
-            {
-                headNode.PreviousNode = newHead;
-                headNode = newHead;
-            }
-            size++;
+
         }
+
 
         private void SetTailHead(GenNode<T> newTailHead)
         {

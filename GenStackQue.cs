@@ -11,6 +11,6 @@ namespace miniStacksAndQueuse
     {
         public static GenStackQueHelper<Person> firstQue = new GenStackQueHelper<Person>();
         public static GenStackQueHelper<Person> screening = new GenStackQueHelper<Person>();
-        public static GenStackQueHelper<Person> vaccinate = new GenStackQueHelper<Person>();
+        public static GenStackQueHelper<Person> vaccination = new GenStackQueHelper<Person>();
     }
 }

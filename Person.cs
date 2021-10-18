@@ -8,9 +8,14 @@ namespace miniStacksAndQueuse
 {
     class Person
     {
-        string name, surname, idNo;
+        string name, surname;
+        int idNo;
+        public override string ToString()
+        {
+            return name + ", " + surname + ". (" + idNo + ")";
+        }
 
-        public Person(string name, string surname, string idNo)
+        public Person(string name, string surname, int idNo)
         {
             this.Name = name;
             this.Surname = surname;
@@ -19,6 +24,8 @@ namespace miniStacksAndQueuse
 
         public string Name { get => name; set => name = value; }
         public string Surname { get => surname; set => surname = value; }
-        public string IdNo { get => idNo; set => idNo = value; }
+        public int IdNo { get => idNo; set => idNo = value; }
+
+
     }
 }
